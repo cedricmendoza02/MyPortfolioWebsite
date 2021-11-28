@@ -34,9 +34,12 @@ figcaption {
   color: #e07a5f;
 }
 
-#projects,
 #education {
   color: #3d405b;
+}
+
+#projects {
+  color: rgba(0, 0, 0, 0, 0.5);
 }
 
 .project-link {
@@ -108,6 +111,7 @@ ul {
 
 #projects {
   gap: 20px;
+  background-color: #b95454;
 }
 
 #my-image {
@@ -128,10 +132,6 @@ ul {
   background-color: gray;
   border-radius: 5%;
   padding: 2px;
-}
-
-#projects {
-  background-color: #f4f1de;
 }
 
 .project-container {
